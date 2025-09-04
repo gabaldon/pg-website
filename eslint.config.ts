@@ -17,6 +17,6 @@ export default defineConfig([
   eslintConfigPrettier,
   {
     ignores: ['node_modules', 'dist', 'public', '.nuxt', '.output'],
-ac  },
+  },
   { files: ['**/*.vue'], languageOptions: { parserOptions: { parser: tseslint.parser } } },
 ])
