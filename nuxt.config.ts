@@ -3,6 +3,11 @@ export default defineNuxtConfig({
   nitro: {
     preset: 'static',
   },
+  site: {
+    url: 'https://pgestudio.com',
+    name: 'PG Estudio',
+    description: 'PG Estudio, especializado en reformas y diseño arquitectónico funcional y moderno.'
+  },
   app: {
     baseURL: '/',
     head: {
